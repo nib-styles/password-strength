@@ -1,7 +1,7 @@
 {
   "name": "password-strength",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "styles": [
-    "index.scss"
+    "index.css"
   ]
 }
