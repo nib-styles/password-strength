@@ -1,0 +1,37 @@
+.password-strength {
+  background: #eee;
+  height: 10px;
+  position: relative;
+
+  & > div {
+    @include transition(all 0.5s ease-in-out);
+    @include horizontal-gradient(#1f7c07,#79be10);
+    display: block;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0%;
+  }
+
+  &[data-strength="0"] div {
+    background: #db3434;
+    width: 20%;
+  }
+
+  &[data-strength="1"] div {
+    width: 40%;
+  }
+
+  &[data-strength="2"] div {
+    width: 60%;
+  }
+
+  &[data-strength="3"] div {
+    width: 80%;
+  }
+
+  &[data-strength="4"] div {
+    width: 100%;
+  }
+}
