@@ -6,7 +6,7 @@
 
 .password-strength div {
   transition: all .5s ease-in-out;
-  background: linear-gradient(left, #1f7c07, #79be10);
+  background: linear-gradient(to right, #1f7c07, #79be10);
   display: block;
   height: 10px;
   left: 0;
