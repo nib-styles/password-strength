@@ -1,0 +1,9 @@
+{
+  "name": "@nib-styles/password-strength",
+  "version": "1.0.0",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/password-strength.git"
+  }
+}
